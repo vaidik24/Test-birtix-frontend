@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
-    allowedHosts: ['f96254440c6f.ngrok-free.app'],
+    allowedHosts: ['test-birtix-backend.onrender.com'],
     fs: {
       strict: false,
     },

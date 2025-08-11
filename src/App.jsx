@@ -42,7 +42,7 @@ const App = () => {
         setError('');
         
         try {
-            const response = await fetch('http://localhost:3001/get-deals?auth_id=' + authId + '&domain=' + domain, {
+            const response = await fetch('https://test-birtix-backend.onrender.com/get-deals?auth_id=' + authId + '&domain=' + domain, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
